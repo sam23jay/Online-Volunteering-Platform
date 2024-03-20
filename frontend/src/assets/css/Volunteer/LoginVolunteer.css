@@ -1,0 +1,285 @@
+.login-vol-login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.login-vol-background-image {
+  flex: 60%;
+  background-image: url("https://demos.themeselection.com/sneat-mui-react-nextjs-admin-template/demo-1/images/pages/boy-with-rocket-light.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login-vol-logo {
+  font-size: 10px;
+}
+.logo-and-text {
+  display: flex;
+  align-items: center;
+}
+
+.login-vol-logo {
+  width: 60px;
+  height: auto;
+  margin-left: -10px;
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d3d3d3;
+  margin-top: -20px;
+}
+
+.login-vol-login-container {
+  flex: 40%;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.beaut-text {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 200px;
+}
+.login-vol-login-container h3 {
+  font-size: 1.25rem;
+}
+
+.login-vol-form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-vol-form-group label {
+  font-weight: bold;
+}
+
+.login-vol-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-vol-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #bb84e8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+.login-vol-btn:hover {
+  background-color: #784f99;
+}
+.small-text-login {
+  font-weight: 100;
+}
+
+.beaut-text p {
+  color: #b4b4b4;
+}
+.beaut-text h3 {
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+.abov-text {
+  margin-bottom: -25px;
+}
+.link-sign-up {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.floating-label-group {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.floating-label {
+  font-size: 13px;
+  color: #000000;
+  position: absolute;
+  pointer-events: none;
+  top: 9px;
+  left: 12px;
+  transition: all 0.1s ease;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: -25px;
+  bottom: 0px;
+  left: 0px;
+  font-size: 16px;
+  opacity: 1;
+  color: #ffffff;
+}
+.row {
+  margin-top: 50px;
+}
+
+.skills-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.heading-personalized {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.skills-popup-content {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-height: 80%;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skills-description {
+  text-align: left;
+}
+.close-popup-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #14cf39;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+.close-popup-btn:hover {
+  background-color: #2003ff;
+}
+.close-popup-btn-loc {
+  text-align: center;
+}
+
+.choose-later-skill {
+  cursor: pointer;
+
+  text-align: center;
+  text-decoration: underline;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+}
+
+.skill-box {
+  width: calc(50% - 10px);
+  max-width: 250px;
+  height: 80px;
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, #202020, #2b2b2b);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.skill-box:hover {
+  background: linear-gradient(to right, #202020, #3b3b3b);
+}
+
+.skill-box:hover,
+.skill-box:active,
+.skill-box.active {
+  background: linear-gradient(to right, #202020, #8317cb);
+}
+.skill-image {
+  width: 40%;
+  height: 180%;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-left: -20px;
+}
+
+.skill-text {
+  margin-left: 4px;
+}
+.skill-box:hover .skill-text p {
+  transform: scale(1.04);
+}
+
+.skill-text {
+  flex-grow: 1;
+  transition: 0.3s;
+}
+
+.skill-text p {
+  margin: 0;
+  transition: transform 0.3s;
+}
+
+.selected-skill {
+  display: inline-flex;
+  align-items: center;
+  background-color: #424242;
+  border-radius: 20px;
+  padding: 4px 8px;
+  margin-right: 5px;
+}
+
+.selected-skill-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.remove-skill {
+  cursor: pointer;
+  color: rgb(135, 135, 135);
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  .login-vol-login-page {
+    flex-direction: column;
+  }
+
+  .login-vol-background-image {
+    display: none;
+  }
+
+  .login-vol-login-container {
+    flex: 100%;
+    margin-top: 20px;
+  }
+}

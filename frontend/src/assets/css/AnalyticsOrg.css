@@ -1,0 +1,53 @@
+.analytics-container {
+  overflow-y: visible;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Ana-head {
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: 20px;
+  color: rgb(255, 217, 0);
+}
+
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden; 
+}
+
+.chart {
+  width: calc(45% - 20px); 
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 300px; 
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .chart-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart {
+    width: 100%;
+  }
+}
+@media (max-width: 525px) {
+  .chart {
+    width: 100%;
+  }
+  .bar-resp {
+    width: 300px;
+  }
+}

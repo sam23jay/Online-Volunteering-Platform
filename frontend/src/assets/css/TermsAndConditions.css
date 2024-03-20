@@ -1,0 +1,32 @@
+
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #bb84e8;
+  border-radius: 10px;
+  box-shadow: 7px 5px 10px #bb84e8;
+}
+
+.terms-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.terms-section {
+  margin-bottom: 20px;
+}
+
+.terms-section-header h2 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.terms-section-content p {
+  font-size: 16px;
+  color: #a5a5a5;
+}

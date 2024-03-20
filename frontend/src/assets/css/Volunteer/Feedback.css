@@ -1,0 +1,29 @@
+.feedback-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #212121;
+  text-align: left;
+  color: white;
+  margin-top: 20px;
+}
+
+.question-container {
+  color: white;
+
+  margin: 20px 0;
+}
+
+.question {
+  color: white;
+
+  font-size: 18px;
+}
+
+.MuiButton-root {
+  color: rgb(255, 255, 255);
+
+  margin-top: 20px;
+}

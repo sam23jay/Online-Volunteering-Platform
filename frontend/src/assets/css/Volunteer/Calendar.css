@@ -1,0 +1,51 @@
+.volunteer-event-calendar {
+  background-color: #2c2c2c;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.volunteer-calendar-heading {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.calendar-date {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.calendar-day {
+  font-size: 24px;
+}
+
+.calendar-month {
+  font-size: 16px;
+}
+
+.calendar-events {
+  margin-top: 20px;
+}
+
+.event-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-time {
+  font-weight: bold;
+  color: #333;
+}
+
+.event-description {
+  color: #777;
+}

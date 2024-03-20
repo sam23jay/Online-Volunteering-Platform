@@ -1,0 +1,45 @@
+.event-list-org1 {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+.event-list-org1 h1 {
+  font-weight: 600;
+  font-size: 45px;
+}
+.event-card {
+  color: rgb(255, 255, 255) !important;
+  flex: 0 0 calc(33.33% - 20px);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: none;
+  background-color: rgb(30, 30, 30) !important;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+  box-shadow: 7px 8px 10px rgba(115, 31, 151, 1);
+}
+
+.event-image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+
+.event-details {
+  opacity: 0.8;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.event-card:hover .event-details {
+  opacity: 1;
+  transform: translate(0, -5px);
+}

@@ -1,0 +1,271 @@
+.org-welcome {
+  text-align: left;
+  padding: 20px;
+  width: 100%;
+  background: linear-gradient(to left, #7143c5 0%, rgb(187, 132, 232) 100%);
+  color: #000000;
+}
+
+.welcome-title {
+  font-size: 36px;
+}
+
+.info-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center; 
+  color: #ffffff;
+  text-align: left; 
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background-color: #21132c;
+  font-size: 24px; 
+  border-radius: 10px;
+  padding: 10px 20px; 
+  width: 270px;
+}
+.info-content {
+  margin-left: 40px;
+  margin-bottom: -10px;
+}
+.info-item svg {
+  width: 40px;
+  height: 40px; 
+  margin-right: 20px;
+}
+.info-number {
+  font-weight: 600;
+}
+.info-event-name {
+  color: #d9d9d9;
+  font-size: 1.2rem;
+  margin-top: -10px;
+}
+.event-header {
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.event-header {
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.info-item:hover {
+  transform: scale(1.08);
+  background-color: #2f1a52;
+
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.event-list {
+  color: #000;
+  padding: 20px;
+  max-height: 380px;
+  overflow-y: auto; 
+}
+
+.event-item {
+  color: #ffffff;
+  background-color: #303030;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 300px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.event-item:last-child {
+  margin-bottom: 0;
+}
+
+.event-item:hover {
+  transform: scale(1.07);
+  box-shadow: 7px 5px 10px rgba(187, 132, 232, 0.7);
+}
+.event-item:hover h3,
+.event-item:hover p {
+  transform: scale(1.07);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.event-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.volunteers-enrolled {
+  font-size: 16px;
+  color: #007bff;
+}
+.org-info-box {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.org-event-box {
+  background-color: #1f1f1f;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 400px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.org-events-and-volunteers {
+  display: flex;
+  align-items: flex-start;
+}
+
+.org-event-box {
+  flex: 1;
+  margin-right: 20px;
+}
+.org-volunteer-box {
+  color: #000;
+
+  border-radius: 10px;
+  min-width: 300px;
+  margin-top: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.org-volunteer-list {
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 360px;
+}
+
+.volunteer-header {
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.volunteer-scrollable-list {
+  color: #ffffff;
+  background-color: #100f0f;
+  max-height: 310px;
+  width: 200px;
+  overflow-y: scroll;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.volunteer-item {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 15px;
+  transition: background-color 0.3s, transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.volunteer-item:hover {
+  background-color: #7143c5;
+  transform: scale(1.07);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.org-announcement-box {
+  flex: 1;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-top: 40px;
+  margin-left: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.announcement-header {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.announce-heading {
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: 550;
+}
+.add-announcement-button {
+  background-color: #7143c5;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 5px 14px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.add-announcement-button:hover {
+  background-color: #503485;
+}
+
+.announcement-list {
+  background-color: #000000;
+  max-height: 380px;
+  width: 100%;
+  border: 1px #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+
+  border: 5px solid #363636;
+}
+
+.announcement-item {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #212121;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.announcement-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.announcement-item h3 {
+  font-size: 22px;
+}
+
+@media (max-width: 900px) {
+  .welcome-title {
+    width: 100%;
+
+    font-size: 36px;
+  }
+
+  .info-list {
+    flex-direction: column;
+  }
+  .info-item {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .org-events-and-volunteers {
+    display: flex;
+    flex-direction: column;
+  }
+  .org-event-box {
+    width: 98%;
+  }
+  .org-volunteer-box {
+    width: 98%;
+  }
+}
