@@ -61,11 +61,11 @@ const AdminPannel = ({ onItemClick }) => {
   const [sideBarVisible, setSideBarVisible] = React.useState(false);
   const navigate = useNavigate();
 
-  const [selectedItem, setSelectedItem] = useState("Dashboard"); // Initially select Dashboard
+  const [selectedItem, setSelectedItem] = useState("Dashboard"); 
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
-    onItemClick(item); // Pass the name of the clicked item
+    onItemClick(item); 
     navigate(item.path);
   };
 
@@ -90,7 +90,6 @@ const AdminPannel = ({ onItemClick }) => {
             >
               <ListItemButton selected={selectedItem === item.name}>
                 {" "}
-                {/* Highlight when active */}
                 <ListItemIcon>{item.icon}</ListItemIcon>
                 <ListItemText primary={item.name} />
               </ListItemButton>
@@ -141,8 +140,8 @@ const AdminPannel = ({ onItemClick }) => {
           component="main"
           sx={{
             flexGrow: 1,
-            position: "relative", // Ensure it's positioned
-            zIndex: 1, // Ensure it's below the footer
+            position: "relative", 
+            zIndex: 1,
           }}
         >
           <Toolbar />
