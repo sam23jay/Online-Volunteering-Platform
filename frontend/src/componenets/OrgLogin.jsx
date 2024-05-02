@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "../assets/css/LoginOrg.css"; // Create a CSS file for your login page styles
+import "../assets/css/LoginOrg.css";
 import { Label } from "reactstrap";
-import yourLogo from "../assets/pics/harmony-logo.png"; // Replace with the actual path to your logo
+import yourLogo from "../assets/pics/harmony-logo.png";
 import Footer from "./Footer";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -34,7 +34,7 @@ const OrgLogin = () => {
           role,
         }
       );
-      console.log("Response:", response); // Log the entire response object
+      console.log("Response:", response);
 
       const token = response.data.token;
       const orgId = response.data.orgID;
@@ -74,7 +74,7 @@ const OrgLogin = () => {
                 className="login-vol-logo"
                 style={{ width: "60px", height: "auto", marginBottom: "20px" }}
               />
-              <div className="logo-text">Harmony</div> {/* Add this */}
+              <div className="logo-text">Harmony</div>
             </div>
             <div className="abov-text">
               <h3>Welcome to Harmony!👋🏻</h3>
