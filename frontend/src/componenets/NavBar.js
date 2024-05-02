@@ -23,7 +23,7 @@ function NavBar() {
   };
   const handleClick = () => setClick(!click);
 
-  const isLoggedIn = getLoggedIn(); // Get the isLoggedIn value
+  const isLoggedIn = getLoggedIn();
 
   return (
     <>
@@ -63,7 +63,7 @@ function NavBar() {
                 About
               </NavLink>
             </li>
-            {localStorage.getItem("token") && ( // Render the "Logout" button only when isLoggedIn is true
+            {localStorage.getItem("token") && (
               <li>
                 <Button className="log-out-red" onClick={handleLogOut}>
                   Logout
